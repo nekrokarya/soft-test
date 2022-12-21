@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>Soft</title>
+</head>
+<body>
+  <div class="main-screen">
+    <header class="header">
+      <div class="container">
+        <div class="header__row">
+          <div class="header__logo">
+            <img src="./img/logo.png" alt="">
+          </div>
+          <nav class="header__menu menu">
+            <div class="menu__icon icon-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="menu__body">
+              <ul class="menu__list">
+                <li><a href="#" class="menu__link menu__link_active">Бизнес</a></li>
+                <li><a href="#" class="menu__link">О нас</a></li>
+                <li><a href="#" class="menu__link">Цены</a></li>
+                <li><a href="#" class="menu__link">Оформить заказ</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="main">
+      <div class="container">
+        <h1 class="main__title title"> <span>Lorem ipsum</span> dolor sit <br> amet consectetur <span>adipiscing</span></h1>
+        <p class="main__desc">At vero eos et accusamus et iusto odio dignissimos ducimus!</p>
+        <p class="main__text">
+          – Totam rem aperiam eaque ipsa <br>
+          – Sit voluptatem accusantium doloremque laudantium <br>
+          – Sed ut perspiciatis, unde omnis iste natus error <br>
+        </p>
+        <div class="main__links">
+          <a class="link-secondary link" href="#">заказать</a>
+          <a class="link" href="#">подробнее</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="order section">
+    <div class="container">
+      <div class="title-wrapper">
+        <h2 class="title">Оформление <span>Заказа</span></h2>
+        <p class="desc">Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+      </div>
+      <div class="steps-wrapper">
+        <div class="step">
+          <img src="./img/icons/steps/search.svg" alt="">
+          <span>Lorem ipsum dolor sit amet</span>
+        </div>
+        <div class="step">
+          <img src="./img/icons/steps/percent.svg" alt="">
+          <span>Lorem ipsum dolor sit amet</span>
+        </div>
+        <div class="step">
+          <img src="./img/icons/steps/docs.svg" alt="">
+          <span>Lorem ipsum dolor sit amet</span>
+        </div>
+        <div class="step">
+          <img src="./img/icons/steps/mail.svg" alt="">
+          <span>Lorem ipsum dolor sit amet</span>
+        </div>
+        <div class="step">
+          <img src="./img/icons/steps/cash.svg" alt="">
+          <span>Lorem ipsum dolor sit amet</span>
+        </div>
+      </div>
+      <!-- <div class="steps-wrapper">
+        <div class="step">
+          <img src="./img/icons/steps/search.svg" alt="">
+          <span>Lorem ipsum dolor sit amet</span>
+        </div>
+        <div class="step">
+          <img src="./img/icons/steps/percent.svg" alt="">
+          <span>Lorem ipsum dolor sit amet</span>
+        </div>
+      </div> -->
+      <div class="form-wrapper">
+        <form action="#" method="get">
+          <div class="form">
+            <div class="form__select select">
+              <input class="select__input" type="hidden" name="systemtype">
+              <div class="select__head">Выберите тип системы</div>
+              <ul class="select__list" style="display: none;">
+                <li class="select__item">Sed ut perspiciatis</li>
+                <li class="select__item">Nemo enim ipsam</li>
+                <li class="select__item">Et harum quidem</li>
+                <li class="select__item">Temporibus autem</li>
+                <li class="select__item">Itaque earum rerum</li>
+                <li class="select__item">Et harum quidem</li>
+                <li class="select__item">Temporibus autem</li>
+                <li class="select__item">Itaque earum rerum</li>
+              </ul>
+            </div>
+            <div class="form__mail">
+              <input class="text-field__input" type="text" name="mail" value="" placeholder="Ваш e-mail">
+            </div>
+            <div class="form__name">
+              <input class="text-field__input" type="text" name="username" value="" placeholder="Вашe имя">
+            </div>
+            <!-- <div class="form__name">
+              <input class="text-field__input" type="text" name="username" value="" placeholder="Вашe имя">
+            </div> -->
+            <div class="form__range form-range">
+              <div class="form-range__text">
+                <label for="range">Sed ut perspiciatis, unde omnis iste natus</label>
+                <span>75%</span>
+              </div>
+              <input class="form-range__slider slider" type="range" id="range" name="range" min="0" max="100" value="75" step="5">
+            </div>
+
+            <div class="form__addfile btn">
+              <div class="icon icon-doc"></div>
+              <span>прикрепить файл</span>
+            </div>
+
+            <div class="form__submit">
+              <button class="btn btn-secondary" type="submit">Отправить</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="footer-wrapper">
+          <div class="footer-wrapper__copyright">
+            <span>© 2018 «LoremIpsum.net» Все права защищены.</span>
+          </div>
+          <div class="footer-wrapper__moneysystems money-systems">
+            <div class="money-systems__item">
+              <div class="money-systems__icon icon">
+                <img src="./img/icons/qiwi.svg" alt="">
+              </div>
+              <span class="money-systems__title">QIWI wallet</span>
+            </div>
+            <div class="money-systems__item">
+              <div class="money-systems__icon icon">
+                <img src="./img/icons/yandex.svg" alt="">
+              </div>
+              <span class="money-systems__title">Yandex Money</span>
+            </div>
+            <div class="money-systems__item">
+              <div class="money-systems__icon icon">
+              <img src="./img/icons/webmoney.svg" alt="">
+              </div>
+              <span class="money-systems__title">Web Money</span>
+            </div>
+          </div>
+          <div class="footer-wrapper__contacts contacts-footer">
+            <div class="contacts-footer__item">
+              <a href="mailto:info@ipsum228.com">
+                <div class="contacts-footer__icon icon">
+                  <img src="./img/icons/mail.svg" alt="">
+                </div>
+                <span class="contacts-footer__title">info@ipsum228.com</span>
+              </a>
+            </div>
+            <div class="contacts-footer__item">
+              <a href="#">
+                <div class="contacts-footer__icon icon">
+                  <img src="./img/icons/vk.svg" alt="">
+                </div>
+                <span class="contacts-footer__title">Мы вконтакте</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<script src="./js/script-min.js"></script>
+</body>
+</html>
